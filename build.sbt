@@ -10,6 +10,7 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   "org.mindrot" % "jbcrypt" % "0.3m",
+  "mysql" % "mysql-connector-java" % "5.1.18",
   "com.typesafe.play" %% "play-mailer" % "3.0.1",
   filters
 )

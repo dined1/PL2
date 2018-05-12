@@ -44,7 +44,7 @@ public class User extends Model {
     public Boolean validated = false;
 
     // -- Queries (long id, user.class)
-    public static Model.Finder<Long, User> find = new Model.Finder<Long, User>(Long.class, User.class);
+    public static Model.Finder<Long, User> find = new Model.Finder<>(User.class);
 
     /**
      * Retrieve a user from an email.
